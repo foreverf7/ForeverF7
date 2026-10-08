@@ -1,0 +1,487 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111827;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 30px;
+            background: #2563eb;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        main {
+            padding: 50px 20px;
+        }
+
+        .tarjeta {
+            max-width: 400px;
+            margin: auto;
+            padding: 30px;
+            background: #1f2937;
+            border-radius: 15px;
+            transition: transform 0.3s;}
+        .tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+        button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            background: #2563eb;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        transition: background 0.3s;}
+
+        button:hover {
+    background: #1d4ed8;
+}
+
+.app {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 25px;
+    background: #1f2937;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.app:hover {
+    transform: translateY(-5px);
+}
+
+.app a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.app a:hover {
+    background: #1d4ed8;
+}.app h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+.icono {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+/* ===== LIBRO: MENTE MILLONARIA ===== */
+
+.libro {
+    margin: 40px auto;
+    padding: 40px 20px;
+    max-width: 900px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #171717, #292929);
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.libro-contenido h2 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.etiqueta {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.descripcion {
+    max-width: 600px;
+    margin: 0 auto 25px;
+    line-height: 1.7;
+}
+
+.libro button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.lector {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30px 15px;
+    overflow-y: auto;
+}
+
+.lector-contenido {
+    position: relative;
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 18px;
+    background: white;
+    color: #222;
+    line-height: 1.8;
+}
+
+.lector-contenido h1 {
+    font-size: 38px;
+}
+
+.lector-contenido h2 {
+    margin-bottom: 30px;
+}
+
+.cerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* ===== LIBRO: MENTE MILLONARIA ===== */
+
+.libro {
+    margin: 40px auto;
+    padding: 40px 20px;
+    max-width: 900px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #171717, #292929);
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.libro-contenido h2 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.etiqueta {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.descripcion {
+    max-width: 600px;
+    margin: 0 auto 25px;
+    line-height: 1.7;
+}
+
+.libro button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.lector {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30px 15px;
+    overflow-y: auto;
+}
+
+.lector-contenido {
+    position: relative;
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 18px;
+    background: white;
+    color: #222;
+    line-height: 1.8;
+}
+
+.lector-contenido h1 {
+    font-size: 38px;
+}
+
+.lector-contenido h2 {
+    margin-bottom: 30px;
+}
+
+.cerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* ===== MENTE MILLONARIA ===== */
+
+.portada-libro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.libro-icono {
+    font-size: 70px;
+}
+
+.portada-libro h1 {
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.portada-libro p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 550px;
+    margin: 0 auto 30px;
+}
+
+.portada-libro button,
+.navegacion-libro button {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.capitulo {
+    display: none;
+}
+
+.capitulo span {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.capitulo h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.capitulo p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.navegacion-libro {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 40px;
+}
+/* ===== DISEÑO PROFESIONAL DEL LIBRO ===== */
+
+.lector-contenido {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 50px;
+    border-radius: 20px;
+    background: #fffdf7;
+    color: #222;
+    line-height: 1.9;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+}
+
+.portada-libro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.libro-icono {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.portada-libro h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.portada-libro p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.portada-libro button {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 12px;
+    background: #222;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.portada-libro button:hover,
+.navegacion-libro button:hover {
+    transform: scale(1.03);
+}
+
+.capitulo {
+    display: none;
+}
+
+.capitulo span {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    opacity: 0.6;
+}
+
+.capitulo h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 35px;
+}
+
+.capitulo p {
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+.navegacion-libro {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 45px;
+    padding-top: 25px;
+    border-top: 1px solid #ddd;
+}
+
+.navegacion-libro button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.cerrar {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: none;
+    background: transparent;
+    font-size: 28px;
+    cursor: pointer;
+}
+/* ===== PROGRESO DEL LIBRO ===== */
+
+.progreso-libro {
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#barra-progreso {
+    width: 33.33%;
+    height: 100%;
+    background: #222;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+#texto-progreso {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+/* ===== ANIMACIÓN DEL LIBRO ===== */
+
+.capitulo {
+    animation: aparecerCapitulo 0.4s ease;
+}
+
+@keyframes aparecerCapitulo {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* ===== MENÚ DE NAVEGACIÓN ===== */
+
+.menu-navegacion {
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.enlaces-menu {
+    display: flex;
+    gap: 25px;
+}
+
+.enlaces-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.enlaces-menu a:hover {
+    color: #00bfff;
+}
+/* ===== SECCIÓN DE JUEGOS ===== */
+
+.seccion-juegos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.seccion-juegos h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.seccion-juegos p {
+    opacity: 0.7;
+}

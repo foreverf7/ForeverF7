@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForeverF7</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="menu-navegacion">
+
+    <div class="logo">ForeverF7</div>
+
+    <div class="enlaces-menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#juegos">Juegos</a>
+        <a href="#aplicaciones">Aplicaciones</a>
+        <a href="#libros">Libros</a>
+    </div>
+
+</nav>
+    <header id="inicio">
+    <h1>ForeverF7</h1>
+</header>
+
+    <main>
+        <div class="tarjeta">
+    <h2>Bienvenido a ForeverF7</h2>
+
+    <p>Encuentra las mejores aplicaciones y juegos para Android.</p>
+
+    <p>¡Gracias por preferirnos!</p>
+    <section id="juegos" class="seccion-juegos">
+
+    <h2>🎮 Mis Juegos</h2>
+
+    <p>Próximamente encontrarás aquí nuestros juegos.</p>
+
+</section>
+</div><<section id="aplicaciones">
+
+    <h2>Mis aplicaciones</h2>
+
+    <div class="app">
+      <img src="iconos/7598000b641965c0352a81a37cd44617.jpg" alt="WhatsApp" class="icono">
+        <h3>WhatsApp</h3>
+
+<p>Aplicación de mensajería.</p>
+
+<a href="https://play.google.com/store/apps/details/?id=com.whatsapp" target="_blank">
+    Ver en Play Store
+</a>
+        </div>
+
+    <div class="app">
+        <img src="iconos/images.jfif" alt="Telegram" class="icono">
+    <h3>Telegram</h3>
+
+<p>Aplicación de mensajería rápida.</p>
+
+<a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" target="_blank">
+    Ver en Play Store
+</a>
+<div class="app">
+    <img src="iconos/21b45b7bba318abf551bedd33de4920c.jpg" alt="Spotify" class="icono">
+    <h3>Spotify</h3>
+
+    <p>Música y podcasts.</p>
+
+    <a href="https://play.google.com/store/apps/details?id=com.spotify.music" target="_blank">
+        Ver en Play Store
+    </a>
+<div class="app">
+    <img src="iconos/images (1).jfif" alt="Canva" class="icono">
+    <h3>Canva</h3>
+
+    <p>Diseño y edición.</p>
+
+    <a href="https://play.google.com/store/apps/details?id=com.canva.editor" target="_blank">
+        Ver en Play Store
+    </a>
+</div>
+
+</section><section id="libros" class="libro">
+    <div class="libro-contenido">
+        <span class="etiqueta">📚 LIBRO ORIGINAL</span>
+
+        <h2>Mente Millonaria</h2>
+
+        <p class="descripcion">
+            Aprende de los errores, desarrolla nuevas habilidades
+            y construye poco a poco un mejor futuro.
+        </p>
+
+        <button onclick="abrirLibro()">Leer capítulo 1</button>
+    </div>
+</section>
+
+<div id="lector" class="lector">
+    <div class="lector-contenido">
+
+        <button class="cerrar" onclick="cerrarLibro()">✕</button>
+
+        <!-- PORTADA -->
+        <div id="portada-libro" class="portada-libro">
+            <div class="libro-icono">📖</div>
+
+            <h1>Mente Millonaria</h1>
+
+            <p>
+                Aprende a tomar mejores decisiones,
+                desarrollar habilidades y construir tu futuro.
+            </p>
+
+            <button onclick="mostrarCapitulo(1)">
+                Empezar a leer
+            </button>
+        </div>
+<div class="progreso-libro">
+    <div id="barra-progreso"></div>
+</div>
+
+<p id="texto-progreso">Capítulo 1 de 3</p>
+        <!-- CAPÍTULO 1 -->
+        <div id="capitulo-1" class="capitulo">
+            
+            <span>CAPÍTULO 1</span>
+
+            <h2>El precio de una decisión</h2>
+
+            <p>
+                Todos queremos tener dinero.
+            </p>
+
+            <p>
+                Queremos poder comprar lo que necesitamos,
+                ayudar a nuestra familia, cumplir nuestros sueños
+                y sentir que nuestro esfuerzo está dando frutos.
+            </p>
+
+            <p>
+                Pero pocas personas se detienen a pensar en algo importante:
+            </p>
+
+            <p>
+                <strong>
+                    El dinero no solamente se gana.
+                    También se aprende a cuidar.
+                </strong>
+            </p>
+
+            <p>
+                Puedes pasar semanas trabajando para conseguir cierta cantidad
+                y perderla en cuestión de horas por una mala decisión.
+            </p>
+
+            <p>
+                Y cuando eso sucede, aparece una tentación peligrosa:
+            </p>
+
+            <p>
+                <em>"Tengo que recuperar lo que perdí."</em>
+            </p>
+
+            <p>
+                Pero el pasado no puede cambiarse.
+                Lo que sí puedes cambiar es lo que haces después.
+            </p>
+
+            <p>
+                Una persona inteligente financieramente no es aquella
+                que nunca se equivoca.
+                Es aquella que aprende de sus errores y evita repetirlos.
+            </p>
+
+            <p>
+                <strong>La decisión de empezar de nuevo.</strong>
+            </p>
+
+            <div class="navegacion-libro">
+                <button onclick="mostrarPortada()">← Portada</button>
+                <button onclick="mostrarCapitulo(2)">Siguiente →</button>
+            </div>
+        </div>
+
+        <!-- CAPÍTULO 2 -->
+        <div id="capitulo-2" class="capitulo">
+
+            <span>CAPÍTULO 2</span>
+
+            <h2>Aprender antes de ganar</h2>
+
+            <p>
+                Antes de pensar en cuánto dinero quieres ganar,
+                piensa en qué puedes aprender.
+            </p>
+
+            <p>
+                Una habilidad puede acompañarte durante muchos años.
+                El dinero, en cambio, puede desaparecer rápidamente.
+            </p>
+
+            <p>
+                Aprender a crear, vender, programar, diseñar,
+                escribir o resolver problemas puede abrir nuevas oportunidades.
+            </p>
+
+            <p>
+                No necesitas saberlo todo desde el principio.
+                Lo importante es comenzar y mejorar poco a poco.
+            </p>
+
+            <p>
+                <strong>
+                    Primero construye tus habilidades.
+                    Después construye tus oportunidades.
+                </strong>
+            </p>
+
+            <div class="navegacion-libro">
+    <button onclick="mostrarCapitulo(1)">← Anterior</button>
+    <button onclick="mostrarCapitulo(3)">Siguiente →</button>
+</div>
+
+</div>
+
+<!-- CAPÍTULO 3 -->
+<div id="capitulo-3" class="capitulo">
+
+    <span>CAPÍTULO 3</span>
+
+    <h2>Construir poco a poco</h2>
+
+    <p>
+        Muchas personas quieren resultados inmediatos.
+    </p>
+
+    <p>
+        Pero las cosas importantes normalmente necesitan tiempo.
+    </p>
+
+    <p>
+        Un proyecto puede comenzar con una idea pequeña,
+        una computadora y muchas ganas de aprender.
+    </p>
+
+    <p>
+        Cada página que construyes, cada error que corriges
+        y cada cosa nueva que aprendes te acerca un poco más
+        a lo que quieres conseguir.
+    </p>
+
+    <p>
+        <strong>
+            No necesitas cambiar tu vida en un día.
+            Necesitas comenzar a construirla.
+        </strong>
+    </p>
+
+    <div class="navegacion-libro">
+        <button onclick="mostrarCapitulo(2)">← Anterior</button>
+        <button onclick="mostrarCapitulo(4)">Siguiente →</button>
+    </div>
+
+</div>
+
+
+<!-- CAPÍTULO 4 -->
+<div id="capitulo-4" class="capitulo">
+
+    <span>CAPÍTULO 4</span>
+
+    <h2>Aprender de los errores</h2>
+
+    <p>
+        Equivocarse no significa que todo está perdido.
+    </p>
+
+    <p>
+        Todos podemos tomar decisiones que después
+        nos gustaría haber tomado de otra manera.
+    </p>
+
+    <p>
+        Lo importante es detenerse, analizar qué ocurrió
+        y aprender de esa experiencia.
+    </p>
+
+    <p>
+        Un error puede convertirse en una lección
+        cuando decides no repetirlo.
+    </p>
+
+    <p>
+        <strong>
+            No puedes cambiar lo que ocurrió,
+            pero sí puedes decidir qué harás después.
+        </strong>
+    </p>
+
+    <div class="navegacion-libro">
+        <button onclick="mostrarCapitulo(3)">← Anterior</button>
+    </div>
+
+</div>
+
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
